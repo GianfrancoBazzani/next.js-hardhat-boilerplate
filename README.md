@@ -8,36 +8,20 @@ NEXT.js + Hardhat boilerplate
 
 ### next
 
-to start dev server
+to start dev server: ``` yarn dev ```
 
-``` yarn dev ```
+to build web package: ``` yarn build ``` 
 
-to build web package
+to start web package server: ``` yarn start ```
 
-``` yarn build ``` 
-
-to satart web package server
-
-``` yarn start ```
-
-to lint code
-
-``` yarn lint ```
+to lint code: ``` yarn lint ```
 
 ### Hardhat
 
-to start hardhat EVM local node
+to start hardhat EVM local node: ``` yarn hardhat:node ```
 
-``` yarn hardhat:node ```
+to compile smart contracts: ``` yarn compile ```
 
-to compile smart contracts
+to deploy smart contracts: ``` yarn deploy ```
 
-``` yarn compile ```
-
-to deploy smart contracts
-
-``` yarn deploy ```
-
-to test smart contracts
-
-``` yarn hardhat:test```
+to test smart contracts: ``` yarn hardhat:test```
